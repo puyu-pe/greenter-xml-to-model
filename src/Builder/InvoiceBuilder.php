@@ -113,7 +113,7 @@ class InvoiceBuilder implements BuilderInterface
         if ($address) {
             $invoice['client']['address']['ubigueo'] = $address["cbc:ID"] ?? null;
             $invoice['client']['address']['direccion'] = $address["cac:AddressLine"]["cbc:Line"];
-            $invoice['client']['address']['codigoPais'] = $address["cac:Country"]["cbc:IdentificationCode"];
+            $invoice['client']['address']['codigoPais'] = $address["cac:Country"]["cbc:IdentificationCode"] ?? null;
         }
 
         $contact = $client["cac:Contact"] ?? null;

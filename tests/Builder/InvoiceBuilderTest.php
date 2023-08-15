@@ -17,7 +17,7 @@ class InvoiceBuilderTest extends TestCase
 {
     public function testInvoiceBuilder()
     {
-        $xmlData = file_get_contents(__DIR__ . '/../Resource/invoice2.1-01-credit.xml');
+        $xmlData = file_get_contents(__DIR__ . '/../Resource/invoice2.1-03-bonif-zero.xml');
 
         // Create an instance of the InvoiceFactory
         $invoiceFactory = new InvoiceBuilder();
