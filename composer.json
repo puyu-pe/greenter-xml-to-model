@@ -1,0 +1,26 @@
+{
+    "name": "puyu/greenter-xml-to-model",
+    "description": "Genera el los models de documents de la libreria Greenter desde los formato XML",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "greenter/core": "^5.0",
+        "symfony/serializer": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Puyu\\GreenterXmlToModel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "velnae.28",
+            "email": "velnae.28@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
