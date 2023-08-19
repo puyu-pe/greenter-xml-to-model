@@ -51,8 +51,6 @@
     <cbc:Note languageLocaleID="1000">
         <![CDATA[ CIENTO TREINTA Y TRES CON 00/100 SOLES. ]]>
     </cbc:Note>
-
-    <cbc:Note>sdfgsdfgsdfg</cbc:Note>
     <cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
     <cac:Signature>
         <cbc:ID>20602974503</cbc:ID>

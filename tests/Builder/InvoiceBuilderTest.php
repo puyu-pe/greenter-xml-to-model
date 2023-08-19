@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by PhpStorm.
+ * Created by Intellij IDEA
  * User: Velnae.28
  * Date: 14/08/2023
  * Time: 18:47.
@@ -18,6 +18,7 @@ class InvoiceBuilderTest extends TestCase
     public function testInvoiceBuilder()
     {
         $xmlData = file_get_contents(__DIR__ . '/../Resource/invoice2.1-03-bonif-zero.xml');
+//        $xmlData = file_get_contents(__DIR__ . '/../Resource/invoice2.1-01-credit.xml');
 
         // Create an instance of the InvoiceFactory
         $invoiceFactory = new InvoiceBuilder();

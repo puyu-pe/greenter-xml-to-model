@@ -1,1 +1,1 @@
-{"version":1,"defects":{"Tests\\Builder\\InvoiceBuilderTest::testInvoiceBuilder":4},"times":{"Tests\\Builder\\InvoiceBuilderTest::testInvoiceBuilder":101.019}}
+{"version":1,"defects":{"Tests\\Builder\\InvoiceBuilderTest::testInvoiceBuilder":4},"times":{"Tests\\Builder\\InvoiceBuilderTest::testInvoiceBuilder":0.005}}
